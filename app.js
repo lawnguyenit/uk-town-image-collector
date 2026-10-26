@@ -420,16 +420,14 @@ function renderPagination(container, totalItems, startIndex, endIndex, totalPage
 function changePage(newPage) {
   state.currentPage = newPage;
   renderCards();
-  const grid = document.getElementById('cards-grid');
-  if (grid) {
-    grid.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function changePageSize(newSize) {
   state.pageSize = newSize === 'all' ? 'all' : parseInt(newSize, 10);
   state.currentPage = 1;
   renderCards();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function createCardHtml(r) {
