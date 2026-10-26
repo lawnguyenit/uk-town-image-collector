@@ -24,7 +24,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-api", action="store_true", help="Disable MediaWiki Action API fallback/enrichment and use HTML only")
     parser.add_argument("--refresh", action="store_true", help="Bypass cached article/file responses (robots.txt is always fetched fresh)")
     parser.add_argument("--probe-only", action="store_true", help="Process only the first three rows and write a field-probe artifact")
+    parser.add_argument("--ui", action="store_true", help="Launch the interactive desktop Web UI dashboard")
+    parser.add_argument("--port", type=int, default=8765, help="Port for the UI dashboard (default: 8765)")
+    parser.add_argument("--no-browser", action="store_true", help="Do not automatically launch a browser window when starting the UI")
     args = parser.parse_args(argv)
+
+    if args.ui:
+        from .ui import launch_ui_app
+        launch_ui_app(preferred_port=args.port, open_browser=not args.no_browser)
+        return 0
 
     contact_url = (args.contact_url or os.environ.get("WIKI_CONTACT_URL", "")).strip()
     if not contact_url:

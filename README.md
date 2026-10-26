@@ -4,8 +4,9 @@
 > Built as a production-grade, auditable Python data collection & human-review pipeline. No contract or endorsement by the original client is claimed.
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](#quick-start-windows-powershell)
-[![Tests: 16/16 passing](https://img.shields.io/badge/tests-16%2F16%20passing-brightgreen.svg)](#verification--test-suite)
+[![Tests: 19/19 passing](https://img.shields.io/badge/tests-19%2F19%20passing-brightgreen.svg)](#verification--test-suite)
 [![Live Pilot: 20/20 Ready](https://img.shields.io/badge/live%20pilot-20%2F20%20reviewed-success.svg)](#measured-pilot-results-20-uk-towns)
+[![Desktop UI: Zero Config](https://img.shields.io/badge/Desktop%20UI-Included-indigo.svg)](#interactive-desktop-application-non-technical-friendly)
 
 ![Output Preview](docs/assets/output-preview.png)
 
@@ -38,6 +39,24 @@ Sample artifacts from the live 20-town run (`20261026T032327433492Z`) are includ
 | Metadata completeness (`SUPPORTED_METADATA`) | `20 / 20` | Author, license, dimensions, MIME type, and SHA-256 field evidence |
 | Human review (`APPROVED`) | `20 / 20` | Verified against source pages and recorded in `review.csv` |
 | Import-ready (`ready_for_import.csv`) | `20 / 20` | `CANDIDATE` + `APPROVED` + `SUPPORTED_METADATA` |
+
+---
+
+## Interactive Desktop Application (Non-Technical Friendly)
+
+For business clients, content editors, and non-technical stakeholders who want a standard desktop app experience without typing terminal commands or handling command-line arguments:
+
+### 1-Click Launch on Windows
+
+Simply double-click **`start_app.bat`** in the project folder (or execute `python app.py`).
+
+The application automatically opens as a native desktop window (via Microsoft Edge App Mode, or default system browser):
+- **Visual Candidate Grid:** Every town is displayed as an interactive card featuring photo preview thumbnail, Commons links, photographer, dimensions, and license status.
+- **1-Click Copy Attribution:** Formatted plain-text attributions ready to paste with an instant confirmation toast.
+- **Interactive Review:** Approve or Reject candidates with a single click; add notes or override licenses dynamically. All edits automatically re-export `ready_for_import.csv` and `results.xlsx` on disk in real time.
+- **Bulk Approve:** Sign off on all valid candidates at once with a single click.
+- **Instant Deliverable Downloads:** One-click download buttons for `ready_for_import.csv`, `results.xlsx`, `review.csv`, and `QA_REPORT.md`.
+- **Output Folder Shortcut:** Direct button to open the run folder in Windows File Explorer.
 
 ---
 

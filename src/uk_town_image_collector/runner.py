@@ -51,6 +51,7 @@ def run_job(
     allow_row_invalid: bool = False,
     enable_api: bool = True,
     client: HtmlClient | None = None,
+    progress_callback: Callable[[dict], None] | None = None,
 ) -> Path:
     records, input_digest = read_and_validate_input(input_path, expected_count=expected_count, allow_row_invalid=allow_row_invalid)
     run_started = utc_now()
@@ -120,8 +121,26 @@ def run_job(
                 all_results[later]["reason_code"] = "BATCH_STOPPED:" + outcome
                 all_results[later]["retrieved_at_utc"] = utc_now()
             _write_checkpoint(working_dir, checkpoint_meta, all_results)
+            if progress_callback:
+                progress_callback({
+                    "type": "progress",
+                    "processed": processed_count,
+                    "total": len(process_records),
+                    "record": {"input_id": record.input_id, "place_name": record.place_name, "wikipedia_url": record.wikipedia_url},
+                    "result": {k: v for k, v in result.items() if not k.startswith("_")},
+                    "run_status": run_status,
+                })
             break
         _write_checkpoint(working_dir, checkpoint_meta, all_results)
+        if progress_callback:
+            progress_callback({
+                "type": "progress",
+                "processed": processed_count,
+                "total": len(process_records),
+                "record": {"input_id": record.input_id, "place_name": record.place_name, "wikipedia_url": record.wikipedia_url},
+                "result": {k: v for k, v in result.items() if not k.startswith("_")},
+                "run_status": run_status,
+            })
 
     if probe_only:
         return _finish_probe(working_dir, final_dir, evidence_dir, all_results, run_id, input_digest,
@@ -160,6 +179,16 @@ def run_job(
     }
     write_outputs(working_dir, all_results, run_report)
     working_dir.replace(final_dir)
+    if progress_callback:
+        progress_callback({
+            "type": "completed",
+            "run_id": run_id,
+            "final_dir": str(final_dir),
+            "status_counts": status_counts,
+            "ready_count": ready_count,
+            "run_status": run_status,
+            "results": [{k: v for k, v in r.items() if not k.startswith("_")} for r in all_results],
+        })
     return final_dir
 
 

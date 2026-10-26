@@ -14,3 +14,7 @@ uk-town-image-collector = "uk_town_image_collector.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+uk_town_image_collector = ["web/*"]
+

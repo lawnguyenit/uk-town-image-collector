@@ -24,6 +24,7 @@ A content manager building a UK town guide needs one representative photograph p
 5. **Human-in-the-loop review binding (`review.py`):**
    - Every decision in `review.csv` is bound to `(input_id, file_title)` and a 16-hex SHA-256 metadata fingerprint. If an article's image or license changes on a later run, old approvals automatically reset to `PENDING`.
    - `ready_for_import.csv` admits only rows that are `CANDIDATE` + `APPROVED` + `SUPPORTED_METADATA` with all required fields complete.
+6. **Zero-install Desktop Application (`ui.py`, `start_app.bat`):** For non-technical clients who prefer a standard desktop app over running terminal commands, includes a 1-click launcher (`start_app.bat` or `python app.py`), card-based candidate reviewer, full-image zoom modal with DOM evidence, 1-click attribution copying, interactive human review/license overrides, and instant deliverable exports.
 
 ## 3. Measured Live Run Results (26 October 2026)
 
@@ -39,7 +40,7 @@ Run directory: `outputs/20261026T032327433492Z` (also mirrored in `samples/20261
 | Edge cases resolved with provenance flags | `4 / 20` | `UK002` multi-license (`CC BY-SA 3.0` + `GFDL`), `UK007` & `UK019` (`PD-self`), `UK014` (`Photograph © Andrew Dunn`) |
 | Human review decisions recorded | `20 / 20 APPROVED` | Each row verified against its Wikipedia article and Commons file page |
 | `ready_for_import.csv` rows | `20 / 20` | Complete attribution text and evidence links ready for CMS import |
-| Automated contract & fixture test suite | `16 / 16 passing` | Offline unit + integration tests covering redirects, errors, resume, formula escaping |
+| Automated contract & fixture test suite | `19 / 19 passing` | Offline unit + integration tests covering redirects, errors, resume, formula escaping, and desktop Web UI/APIs |
 
 ## 4. Output Preview
 
