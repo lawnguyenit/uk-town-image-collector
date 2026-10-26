@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Town Image & Attribution Collector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">🇬🇧</div>
+      <div>
+        <span class="brand-title">UK Town Image Collector</span>
+        <span class="brand-badge">Portfolio v1.0</span>
+      </div>
+    </div>
+
+    <div class="nav-status">
+      <div id="nav-status-dot" class="status-dot"></div>
+      <span id="nav-status-label">Ready</span>
+    </div>
+
+    <div class="nav-actions">
+      <select id="run-select" class="btn btn-outline btn-sm" style="background:#1e293b; color:#f8fafc; border-color:#334155;">
+        <option value="">Loading runs...</option>
+      </select>
+      <button class="btn btn-outline btn-sm" onclick="openOutputFolder()" style="background:#1e293b; color:#f8fafc; border-color:#334155;" title="Open folder in File Explorer">
+        📁 Open Folder
+      </button>
+      <button class="btn btn-primary btn-sm" onclick="openRunModal()">
+        ▶ Start New Run
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- KPI Metrics Cards -->
+    <section class="metrics-grid">
+      <div class="metric-card total">
+        <div class="metric-header">
+          <span class="metric-title">Total Inputs</span>
+          <span class="metric-icon">🗺️</span>
+        </div>
+        <div id="metric-total-value" class="metric-value">0</div>
+        <span class="metric-sub">UK town Wikipedia targets</span>
+      </div>
+
+      <div class="metric-card candidates">
+        <div class="metric-header">
+          <span class="metric-title">Candidates Found</span>
+          <span class="metric-icon">📸</span>
+        </div>
+        <div id="metric-candidates-value" class="metric-value">0</div>
+        <span class="metric-sub">Commons photos matched</span>
+      </div>
+
+      <div class="metric-card ready">
+        <div class="metric-header">
+          <span class="metric-title">Ready for Import</span>
+          <span class="metric-icon">✅</span>
+        </div>
+        <div id="metric-ready-value" class="metric-value">0</div>
+        <span class="metric-sub">Approved & license verified</span>
+      </div>
+
+      <div class="metric-card pending">
+        <div class="metric-header">
+          <span class="metric-title">Pending Review</span>
+          <span class="metric-icon">⏳</span>
+        </div>
+        <div id="metric-pending-value" class="metric-value">0</div>
+        <span class="metric-sub">Awaiting human sign-off</span>
+      </div>
+    </section>
+
+    <!-- Live Progress & Activity Logs (Shown while running) -->
+    <section id="progress-panel" class="progress-panel hidden" data-keep-logs="false">
+      <div class="progress-header">
+        <span id="progress-title" style="font-weight: 700; font-size: 0.95rem;">Collecting town images...</span>
+        <span id="progress-percent" style="font-weight: 800; font-size: 1.1rem; color: var(--primary);">0%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div id="progress-bar-fill" class="progress-bar-fill striped"></div>
+      </div>
+      <div id="log-stream" class="log-stream"></div>
+    </section>
+
+    <!-- Action Toolbar (Filters, Search, Bulk Actions, Downloads) -->
+    <section class="action-toolbar">
+      <div class="search-filter-group">
+        <input id="search-input" class="search-input" type="text" placeholder="Search towns, photo titles, photographers, licenses...">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All</button>
+          <button class="filter-tab" data-filter="ready">Ready (Import)</button>
+          <button class="filter-tab" data-filter="pending">Pending</button>
+          <button class="filter-tab" data-filter="needs_review">Needs Review</button>
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button class="btn btn-success btn-sm" onclick="bulkApproveAll()" title="Approve all valid candidates and generate ready_for_import.csv in one click">
+          ✓ Approve All Valid
+        </button>
+        <button class="btn btn-primary btn-sm" onclick="exportFile('ready_csv')" title="Download database-ready CSV (approved items only)">
+          📥 Ready CSV
+        </button>
+        <button class="btn btn-outline btn-sm" onclick="exportFile('results_xlsx')" title="Download formatted Excel workbook with styling and auto-width columns">
+          📊 Excel (.xlsx)
+        </button>
+        <button class="btn btn-outline btn-sm" onclick="exportFile('review_csv')" title="Download human review audit template">
+          📝 Review CSV
+        </button>
+        <button class="btn btn-outline btn-sm" onclick="exportFile('qa_report')" title="Download QA verification report">
+          📋 QA Report
+        </button>
+      </div>
+    </section>
+
+    <!-- Candidates Grid -->
+    <section id="cards-grid" class="cards-grid">
+      <!-- Cards dynamically rendered by app.js -->
+    </section>
+
+  </main>
+
+  <!-- Lightbox Modal for Full Image & Technical Verification -->
+  <div id="lightbox-modal" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-place-title" class="modal-title">Town Candidate Verification</h3>
+        <button class="modal-close" onclick="closeLightbox()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="modal-img" class="modal-image-preview" src="" alt="Candidate Preview">
+        <table class="modal-meta-table">
+          <tbody id="modal-meta-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Run Configuration Modal -->
+  <div id="run-modal" class="modal-backdrop">
+    <div class="modal-content" style="max-width: 540px;">
+      <div class="modal-header">
+        <h3 class="modal-title">Configure Collection Batch</h3>
+        <button class="modal-close" onclick="closeRunModal()">&times;</button>
+      </div>
+      <div class="modal-body" style="gap: 1rem;">
+        <div>
+          <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.35rem;">Input CSV File</label>
+          <input id="config-input-file" type="text" class="search-input" style="width: 100%;" value="input.csv">
+          <small style="color: var(--text-muted); font-size: 0.75rem;">Path to CSV containing input_id, place_name, wikipedia_url</small>
+        </div>
+
+        <div>
+          <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.35rem;">Wikimedia Contact URL (User-Agent Policy)</label>
+          <input id="config-contact-url" type="text" class="search-input" style="width: 100%;" value="https://github.com/lawnguyenit">
+          <small style="color: var(--text-muted); font-size: 0.75rem;">Your public project or GitHub profile URL for responsible API access</small>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input id="config-enable-api" type="checkbox" checked>
+            <span>Enable MediaWiki API enrichment (recommended for rich metadata)</span>
+          </label>
+          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input id="config-allow-invalid" type="checkbox" checked>
+            <span>Allow bad rows (skip bad rows with INVALID_INPUT status instead of failing)</span>
+          </label>
+          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input id="config-refresh" type="checkbox">
+            <span>Force refresh cache (re-fetch all articles and Commons pages)</span>
+          </label>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem;">
+          <button class="btn btn-outline" onclick="closeRunModal()">Cancel</button>
+          <button class="btn btn-primary" onclick="triggerStartRun()">🚀 Start Collection</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
