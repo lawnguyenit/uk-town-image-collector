@@ -2,7 +2,7 @@
 title Build UKTownImageCollector Standalone Executable
 setlocal enabledelayedexpansion
 
-cd /d "%~dp0"
+cd /d "%~dp0.."
 
 echo =========================================================
 echo   Building UKTownImageCollector Standalone EXE

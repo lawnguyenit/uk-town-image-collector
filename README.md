@@ -7,6 +7,7 @@
 [![Tests: 19/19 passing](https://img.shields.io/badge/tests-19%2F19%20passing-brightgreen.svg)](#verification--test-suite)
 [![Live Pilot: 20/20 Ready](https://img.shields.io/badge/live%20pilot-20%2F20%20reviewed-success.svg)](#measured-pilot-results-20-uk-towns)
 [![Desktop UI: Zero Config](https://img.shields.io/badge/Desktop%20UI-Included-indigo.svg)](#interactive-desktop-application-non-technical-friendly)
+[![Live Web Demo: Online](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success.svg)](https://lawnguyenit.github.io/uk-town-image-collector/)
 
 ![Output Preview](docs/assets/output-preview.png)
 
@@ -22,7 +23,20 @@ Content teams curating location pages often spend hours opening Wikipedia articl
 - **Cryptographically bound human review:** `review.csv` decisions bind to `(input_id, file_title)` and a 16-hex SHA-256 metadata fingerprint. If an image or license changes on a later run, stale approvals automatically reset to `PENDING`.
 - **Excel-safe deliverables:** writes UTF-8 BOM CSVs and a formatted 5-sheet `.xlsx` workbook (`Results`, `Review`, `Ready for Import`, `Run Summary`, `Data Dictionary`) with formula-injection neutralisation (`=`, `+`, `-`, `@`).
 
-See [`CASE_STUDY.md`](CASE_STUDY.md) for the full portfolio write-up and [`MODULE_CATALOG.md`](MODULE_CATALOG.md) for reusable module contracts.
+See [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md) for the full portfolio write-up and [`docs/MODULE_CATALOG.md`](docs/MODULE_CATALOG.md) for reusable module contracts.
+
+---
+
+## Live Interactive Web Demo
+
+Test the collector dashboard live in your browser without any installation:
+👉 **[Launch Live Web Demo (GitHub Pages)](https://lawnguyenit.github.io/uk-town-image-collector/)**
+
+- Explore the verified 20-town Cotswolds pilot dataset.
+- Test interactive search, status filters, and smooth pagination (with auto-scroll to top).
+- Inspect high-resolution photos and technical verification metadata in the zoom modal.
+- Test 1-click attribution copying and interactive approval toggles.
+- Download verified sample deliverables (`ready_for_import.csv`, `results.xlsx`, `review.csv`) directly from the browser.
 
 ---
 
@@ -49,7 +63,7 @@ For business clients, content editors, and non-technical stakeholders who want a
 ### 1-Click Launch on Windows
 
 - **With Python installed:** Double-click **`start_app.bat`** (or execute `python app.py`).
-- **Standalone Windows Executable (`.exe`):** Run **`build_exe.bat`** to generate a single-file `dist\UKTownImageCollector.exe` (~16 MB). Clients without Python can simply double-click this `.exe` to run the application immediately with zero setup.
+- **Standalone Windows Executable (`.exe`):** Run **`scripts/build_exe.bat`** to generate a single-file `dist\UKTownImageCollector.exe` (~16 MB). Clients without Python can simply double-click this `.exe` to run the application immediately with zero setup.
 
 The application automatically opens as a native desktop window (via Microsoft Edge App Mode, or default system browser):
 - **Visual Candidate Grid:** Every town is displayed as an interactive card featuring photo preview thumbnail, Commons links, photographer, dimensions, and license status.

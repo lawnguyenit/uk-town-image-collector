@@ -44,9 +44,9 @@ Run directory: `outputs/20261026T032327433492Z` (also mirrored in `samples/20261
 
 ## 4. Output Preview
 
-Rendered from `outputs/20261026T032327433492Z/results.xlsx` (also exported via LibreOffice Calc to [`docs/assets/results.pdf`](docs/assets/results.pdf)):
+Rendered from `outputs/20261026T032327433492Z/results.xlsx` (also exported via LibreOffice Calc to [`assets/results.pdf`](assets/results.pdf)):
 
-![Output Preview](docs/assets/output-preview.png)
+![Output Preview](assets/output-preview.png)
 
 ## 5. Boundaries & Honest Framing
 
