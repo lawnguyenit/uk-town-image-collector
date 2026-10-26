@@ -126,6 +126,11 @@
       <!-- Cards dynamically rendered by app.js -->
     </section>
 
+    <!-- Pagination Controls (Prevents deep scrolling) -->
+    <div id="pagination-container" class="pagination-container">
+      <!-- Rendered by app.js -->
+    </div>
+
   </main>
 
   <!-- Lightbox Modal for Full Image & Technical Verification -->
@@ -158,28 +163,36 @@
           <small style="color: var(--text-muted); font-size: 0.75rem;">Path to CSV containing input_id, place_name, wikipedia_url</small>
         </div>
 
-        <div>
-          <label style="font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 0.35rem;">Wikimedia Contact URL (User-Agent Policy)</label>
-          <input id="config-contact-url" type="text" class="search-input" style="width: 100%;" value="https://github.com/lawnguyenit">
-          <small style="color: var(--text-muted); font-size: 0.75rem;">Your public project or GitHub profile URL for responsible API access</small>
-        </div>
+        <!-- Collapsible Advanced Settings (Keeps interface clean for non-tech users) -->
+        <details style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem;">
+          <summary style="font-size: 0.82rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); outline: none;">
+            ⚙️ Advanced Settings (Wikimedia User-Agent & Caching)
+          </summary>
+          <div style="margin-top: 0.85rem; display: flex; flex-direction: column; gap: 0.75rem;">
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">Wikimedia Contact URL (User-Agent Policy)</label>
+              <input id="config-contact-url" type="text" class="search-input" style="width: 100%; font-size: 0.8rem;" value="https://github.com/lawnguyenit/uk-town-image-collector">
+              <small style="color: var(--text-muted); font-size: 0.72rem;">Required by Wikipedia API guidelines to declare identity and prevent IP blocking</small>
+            </div>
 
-        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
-          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input id="config-enable-api" type="checkbox" checked>
-            <span>Enable MediaWiki API enrichment (recommended for rich metadata)</span>
-          </label>
-          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input id="config-allow-invalid" type="checkbox" checked>
-            <span>Allow bad rows (skip bad rows with INVALID_INPUT status instead of failing)</span>
-          </label>
-          <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input id="config-refresh" type="checkbox">
-            <span>Force refresh cache (re-fetch all articles and Commons pages)</span>
-          </label>
-        </div>
+            <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+              <label style="font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input id="config-enable-api" type="checkbox" checked>
+                <span>Enable MediaWiki API enrichment (recommended for rich metadata)</span>
+              </label>
+              <label style="font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input id="config-allow-invalid" type="checkbox" checked>
+                <span>Allow bad rows (skip bad rows with INVALID_INPUT instead of failing)</span>
+              </label>
+              <label style="font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input id="config-refresh" type="checkbox">
+                <span>Force refresh cache (re-fetch all articles and Commons pages)</span>
+              </label>
+            </div>
+          </div>
+        </details>
 
-        <div style="display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem;">
+        <div style="display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 0.5rem;">
           <button class="btn btn-outline" onclick="closeRunModal()">Cancel</button>
           <button class="btn btn-primary" onclick="triggerStartRun()">🚀 Start Collection</button>
         </div>
