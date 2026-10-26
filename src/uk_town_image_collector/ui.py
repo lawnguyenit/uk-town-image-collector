@@ -29,7 +29,14 @@ from .review import apply_review_decisions, load_review_decisions, ready_record,
 from .runner import run_job
 from .transport import utc_now
 
-WEB_DIR = Path(__file__).parent / "web"
+def get_web_dir() -> Path:
+    """Resolve directory containing web assets, supporting both development and PyInstaller bundles."""
+    if hasattr(sys, "_MEIPASS"):
+        base = Path(sys._MEIPASS)
+        for cand in [base / "uk_town_image_collector" / "web", base / "web"]:
+            if cand.exists():
+                return cand
+    return Path(__file__).resolve().parent / "web"
 
 
 class CollectorState:
@@ -37,11 +44,27 @@ class CollectorState:
 
     def __init__(self, root_dir: Path | None = None):
         self.lock = threading.RLock()
-        self.root_dir = (root_dir or Path.cwd()).resolve()
+        if root_dir is not None:
+            self.root_dir = root_dir.resolve()
+        elif getattr(sys, "frozen", False):
+            # When running as a compiled standalone executable, use the directory containing the .exe
+            self.root_dir = Path(sys.executable).resolve().parent
+        else:
+            self.root_dir = Path.cwd().resolve()
+
         self.output_root = self.root_dir / "outputs"
         self.cache_dir = self.root_dir / "cache"
         self.input_path = self.root_dir / "input.csv"
-        self.contact_url = os.environ.get("WIKI_CONTACT_URL", "https://github.com/lawnguyenit")
+        self.contact_url = os.environ.get("WIKI_CONTACT_URL", "https://github.com/lawnguyenit/uk-town-image-collector")
+
+        # Automatically ensure starter input.csv exists if launched standalone
+        if not self.input_path.exists() and hasattr(sys, "_MEIPASS"):
+            bundled_input = Path(sys._MEIPASS) / "input.csv"
+            if bundled_input.exists():
+                try:
+                    shutil.copy2(bundled_input, self.input_path)
+                except Exception:
+                    pass
 
         self.status: str = "idle"  # idle, running, completed, error
         self.progress: dict = {"completed": 0, "total": 0, "place_name": "", "input_id": ""}
@@ -316,13 +339,14 @@ class CollectorRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
         path = parsed.path
+        web_dir = get_web_dir()
 
         if path in ("/", "/index.html"):
-            self._serve_file(WEB_DIR / "index.html", "text/html; charset=utf-8")
+            self._serve_file(web_dir / "index.html", "text/html; charset=utf-8")
         elif path == "/style.css":
-            self._serve_file(WEB_DIR / "style.css", "text/css; charset=utf-8")
+            self._serve_file(web_dir / "style.css", "text/css; charset=utf-8")
         elif path == "/app.js":
-            self._serve_file(WEB_DIR / "app.js", "application/javascript; charset=utf-8")
+            self._serve_file(web_dir / "app.js", "application/javascript; charset=utf-8")
         elif path == "/api/state":
             self._handle_api_state()
         elif path.startswith("/api/export/"):

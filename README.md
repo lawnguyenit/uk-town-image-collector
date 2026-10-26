@@ -48,7 +48,8 @@ For business clients, content editors, and non-technical stakeholders who want a
 
 ### 1-Click Launch on Windows
 
-Simply double-click **`start_app.bat`** in the project folder (or execute `python app.py`).
+- **With Python installed:** Double-click **`start_app.bat`** (or execute `python app.py`).
+- **Standalone Windows Executable (`.exe`):** Run **`build_exe.bat`** to generate a single-file `dist\UKTownImageCollector.exe` (~16 MB). Clients without Python can simply double-click this `.exe` to run the application immediately with zero setup.
 
 The application automatically opens as a native desktop window (via Microsoft Edge App Mode, or default system browser):
 - **Visual Candidate Grid:** Every town is displayed as an interactive card featuring photo preview thumbnail, Commons links, photographer, dimensions, and license status.

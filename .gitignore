@@ -5,3 +5,6 @@ __pycache__/
 cache/*
 outputs/*
 !outputs/.gitkeep
+build/
+dist/
+*.spec
