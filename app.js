@@ -9,6 +9,8 @@ let state = {
   current_run_id: '',
   filter: 'all',
   searchQuery: '',
+  currentPage: 1,
+  pageSize: 6,
 };
 
 let pollInterval = null;
@@ -31,6 +33,7 @@ function setupEventListeners() {
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       state.searchQuery = e.target.value.toLowerCase().trim();
+      state.currentPage = 1;
       renderCards();
     });
   }
@@ -41,6 +44,7 @@ function setupEventListeners() {
       document.querySelectorAll('.filter-tab').forEach((t) => t.classList.remove('active'));
       e.target.classList.add('active');
       state.filter = e.target.dataset.filter || 'all';
+      state.currentPage = 1;
       renderCards();
     });
   });
@@ -315,6 +319,7 @@ function updateRunSelect() {
 
 function renderCards() {
   const grid = document.getElementById('cards-grid');
+  const pagContainer = document.getElementById('pagination-container');
   if (!grid) return;
 
   let filtered = state.records;
@@ -351,10 +356,80 @@ function renderCards() {
         <p style="margin-top: 0.5rem; font-size: 0.85rem;">Try adjusting your search query or switching filter tabs.</p>
       </div>
     `;
+    if (pagContainer) pagContainer.style.display = 'none';
     return;
   }
 
-  grid.innerHTML = filtered.map((r) => createCardHtml(r)).join('');
+  // Pagination calculation
+  const totalItems = filtered.length;
+  const pageSize = state.pageSize === 'all' ? totalItems : parseInt(state.pageSize, 10);
+  const totalPages = Math.ceil(totalItems / pageSize) || 1;
+
+  if (state.currentPage > totalPages) state.currentPage = totalPages;
+  if (state.currentPage < 1) state.currentPage = 1;
+
+  const startIndex = (state.currentPage - 1) * pageSize;
+  const endIndex = Math.min(startIndex + pageSize, totalItems);
+  const pageRecords = filtered.slice(startIndex, endIndex);
+
+  grid.innerHTML = pageRecords.map((r) => createCardHtml(r)).join('');
+
+  if (pagContainer) {
+    pagContainer.style.display = 'flex';
+    renderPagination(pagContainer, totalItems, startIndex, endIndex, totalPages);
+  }
+}
+
+function renderPagination(container, totalItems, startIndex, endIndex, totalPages) {
+  let pageButtonsHtml = '';
+  for (let i = 1; i <= totalPages; i++) {
+    pageButtonsHtml += `
+      <button class="page-btn ${i === state.currentPage ? 'active' : ''}" onclick="changePage(${i})">
+        ${i}
+      </button>
+    `;
+  }
+
+  container.innerHTML = `
+    <div class="pagination-info">
+      Showing <strong>${startIndex + 1}–${endIndex}</strong> of <strong>${totalItems}</strong> towns
+    </div>
+
+    <div class="pagination-controls">
+      <button class="page-btn" ${state.currentPage === 1 ? 'disabled' : ''} onclick="changePage(${state.currentPage - 1})">
+        ◀ Prev
+      </button>
+      ${pageButtonsHtml}
+      <button class="page-btn" ${state.currentPage === totalPages ? 'disabled' : ''} onclick="changePage(${state.currentPage + 1})">
+        Next ▶
+      </button>
+    </div>
+
+    <div class="page-size-selector">
+      <span>Per page:</span>
+      <select class="page-size-select" onchange="changePageSize(this.value)">
+        <option value="6" ${state.pageSize === 6 ? 'selected' : ''}>6 towns</option>
+        <option value="9" ${state.pageSize === 9 ? 'selected' : ''}>9 towns</option>
+        <option value="12" ${state.pageSize === 12 ? 'selected' : ''}>12 towns</option>
+        <option value="all" ${state.pageSize === 'all' ? 'selected' : ''}>All</option>
+      </select>
+    </div>
+  `;
+}
+
+function changePage(newPage) {
+  state.currentPage = newPage;
+  renderCards();
+  const grid = document.getElementById('cards-grid');
+  if (grid) {
+    grid.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function changePageSize(newSize) {
+  state.pageSize = newSize === 'all' ? 'all' : parseInt(newSize, 10);
+  state.currentPage = 1;
+  renderCards();
 }
 
 function createCardHtml(r) {
