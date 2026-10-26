@@ -14,6 +14,7 @@ let state = {
 };
 
 let pollInterval = null;
+let isStaticMode = false;
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
@@ -89,30 +90,54 @@ function setupEventListeners() {
 // ---------------- API Calls & State ----------------
 
 async function loadState() {
+  let data = null;
   try {
     const res = await fetch('/api/state');
-    if (!res.ok) throw new Error('Failed to load state');
-    const data = await res.json();
-    
-    state.status = data.status || 'idle';
-    state.progress = data.progress || {};
-    state.logs = data.logs || [];
-    state.records = data.records || [];
-    state.summary = data.summary || {};
-    state.available_runs = data.available_runs || [];
-    state.current_run_id = data.current_run_id || '';
-
-    updateNavbar();
-    updateMetrics();
-    updateProgressPanel();
-    updateRunSelect();
-    renderCards();
-  } catch (err) {
-    console.error('Error loading state:', err);
+    if (res.ok) {
+      data = await res.json();
+      isStaticMode = false;
+    }
+  } catch (_) {
+    // API not reachable - fallback to static demo mode
   }
+
+  if (!data) {
+    try {
+      const demoRes = await fetch('data/demo_state.json');
+      if (demoRes.ok) {
+        data = await demoRes.json();
+        isStaticMode = true;
+      }
+    } catch (e) {
+      console.warn('Could not load static demo data:', e);
+    }
+  }
+
+  if (!data) {
+    console.error('Failed to load state from both API and static demo data.');
+    return;
+  }
+
+  state.status = data.status || 'idle';
+  state.progress = data.progress || {};
+  state.logs = data.logs || [];
+  state.records = data.records || [];
+  state.summary = data.summary || {};
+  state.available_runs = data.available_runs || [];
+  state.current_run_id = data.current_run_id || '';
+
+  updateNavbar();
+  updateMetrics();
+  updateProgressPanel();
+  updateRunSelect();
+  renderCards();
 }
 
 async function loadSpecificRun(runId) {
+  if (isStaticMode) {
+    showToast('Viewing pilot dataset: ' + runId, 'info');
+    return;
+  }
   try {
     showToast('Loading run ' + runId + '...', 'info');
     const res = await fetch('/api/load_run', {
@@ -129,6 +154,11 @@ async function loadSpecificRun(runId) {
 }
 
 async function triggerStartRun() {
+  if (isStaticMode) {
+    closeRunModal();
+    showToast('Web Demo: To scrape live custom CSVs, download the desktop app (UKTownImageCollector.exe)!', 'info');
+    return;
+  }
   const inputPath = document.getElementById('config-input-file')?.value || 'input.csv';
   const contactUrl = document.getElementById('config-contact-url')?.value || 'https://github.com/lawnguyenit';
   const enableApi = document.getElementById('config-enable-api')?.checked ?? true;
@@ -158,6 +188,19 @@ async function triggerStartRun() {
 }
 
 async function setReviewStatus(inputId, fileTitle, reviewedStatus, note = null, licenseChoice = null) {
+  if (isStaticMode) {
+    const target = state.records.find((r) => r.input_id === inputId);
+    if (target) {
+      target.reviewed = reviewedStatus;
+      if (note !== null) target.reviewer_note = note;
+      if (licenseChoice !== null) target.reviewer_license_choice = licenseChoice;
+    }
+    updateMetrics();
+    renderCards();
+    showToast(`${inputId} marked as ${reviewedStatus} (Demo mode)`, 'success');
+    return;
+  }
+
   try {
     const payload = {
       input_id: inputId,
@@ -197,6 +240,17 @@ async function bulkApproveAll() {
   if (!confirm('Approve all valid candidate rows and immediately update ready_for_import.csv?')) {
     return;
   }
+
+  if (isStaticMode) {
+    state.records.forEach((r) => {
+      if (r.status === 'CANDIDATE') r.reviewed = 'APPROVED';
+    });
+    updateMetrics();
+    renderCards();
+    showToast(`Successfully approved all 20 candidates (Demo mode)!`, 'success');
+    return;
+  }
+
   try {
     showToast('Approving candidates...', 'info');
     const res = await fetch('/api/bulk_approve', {
@@ -214,6 +268,10 @@ async function bulkApproveAll() {
 }
 
 async function openOutputFolder() {
+  if (isStaticMode) {
+    showToast('In live web demo mode. Click "Ready CSV" or "Excel (.xlsx)" above to download deliverables!', 'info');
+    return;
+  }
   try {
     const res = await fetch('/api/open_folder', { method: 'POST' });
     const data = await res.json();
@@ -225,6 +283,26 @@ async function openOutputFolder() {
 }
 
 function exportFile(kind) {
+  if (isStaticMode) {
+    const staticMap = {
+      ready_csv: 'data/ready_for_import.csv',
+      results_xlsx: 'data/results.xlsx',
+      review_csv: 'data/review.csv',
+      qa_report: 'data/qa-report.md',
+      results_csv: 'data/ready_for_import.csv',
+    };
+    const targetUrl = staticMap[kind];
+    if (targetUrl) {
+      const a = document.createElement('a');
+      a.href = targetUrl;
+      a.download = targetUrl.split('/').pop();
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      showToast('Downloading ' + a.download, 'success');
+      return;
+    }
+  }
   window.open(`/api/export/${kind}`, '_blank');
 }
 
@@ -233,10 +311,15 @@ function exportFile(kind) {
 function updateNavbar() {
   const dot = document.getElementById('nav-status-dot');
   const label = document.getElementById('nav-status-label');
+  const badge = document.querySelector('.brand-badge');
   if (!dot || !label) return;
 
   dot.className = 'status-dot';
-  if (state.status === 'running') {
+  if (isStaticMode) {
+    dot.classList.add('completed');
+    label.textContent = 'Live Portfolio Demo';
+    if (badge) badge.textContent = 'Live Web Demo';
+  } else if (state.status === 'running') {
     dot.classList.add('running');
     label.textContent = 'Collecting Images...';
   } else if (state.status === 'error') {
