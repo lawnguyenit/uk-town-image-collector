@@ -1,0 +1,129 @@
+{
+  "input_id": "UK009",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Winchcombe",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:23Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Winchcombe",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Winchcombe",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg/250px-St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "St Peter's Parish Church",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "382015",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1379054814",
+        "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+        "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+        "retrieved_at_utc": "2026-10-26T02:43:22Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Philip Pankhurst",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/19770",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 4 March 2025, at 00:19.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,816 × 6,011 pixels, file size: 3.46 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+        "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+        "retrieved_at_utc": "2026-10-26T02:43:23Z"
+      }
+    ]
+  }
+}

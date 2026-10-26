@@ -1,0 +1,129 @@
+{
+  "input_id": "UK008",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Tetbury",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:21Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Tetbury",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Tetbury",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg/250px-Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "584682",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1370323381",
+        "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+        "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+        "retrieved_at_utc": "2026-10-26T02:43:20Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Philip Halling",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/1837",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 9 August 2026, at 21:18.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (640 × 426 pixels, file size: 74 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+        "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+        "retrieved_at_utc": "2026-10-26T02:43:21Z"
+      }
+    ]
+  }
+}

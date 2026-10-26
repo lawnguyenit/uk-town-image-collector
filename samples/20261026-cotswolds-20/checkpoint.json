@@ -1,0 +1,3185 @@
+{
+ "job_id": "uk-town-image-collector-v1",
+ "config_version": "2026-10-26.2",
+ "code_version": "1.0.0",
+ "input_file_sha256": "df68e1ae0d38efb2bbdedc80a78c298e53aaf2da7a6cc18f073db96f33eda268",
+ "run_id": "20261026T032327433492Z",
+ "probe_only": false,
+ "resumed_from": "",
+ "saved_at_utc": "2026-10-26T03:23:29Z",
+ "rows": {
+  "UK001": {
+   "input_id": "UK001",
+   "place_name": "Bibury",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Bibury",
+   "canonical_title": "Bibury",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Bibury",
+   "page_id": "1427381",
+   "revision_id": "1377979115",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Arlington Row Bibury.jpg",
+   "caption": "Arlington Row: Cotswold stone cottages",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Arlington_Row_Bibury.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Arlington_Row_Bibury.jpg/250px-Arlington_Row_Bibury.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "4113",
+   "height_px": "2575",
+   "creator_text": "Saffron Blaze",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+   "credit_text": "Own work",
+   "license_short_name": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 3.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Arlington Row Bibury.jpg — Saffron Blaze — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:07Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 14 December 2025, at 10:02.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Bibury",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Bibury",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Arlington_Row_Bibury.jpg/250px-Arlington_Row_Bibury.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Arlington Row: Cotswold stone cottages",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "1427381",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1377979115",
+      "source_url": "https://en.wikipedia.org/wiki/Bibury",
+      "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+      "retrieved_at_utc": "2026-10-26T02:43:06Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[4]/td[2]",
+      "value": "Saffron Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[3]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[5]/td[2]/div/div[2]",
+      "value": {
+       "name": "CC BY-SA 3.0",
+       "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 14 December 2025, at 10:02.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Arlington_Row_Bibury.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (4,113 × 2,575 pixels, file size: 7.7 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+      "retrieved_at_utc": "2026-10-26T02:43:07Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+    "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692"
+   ]
+  },
+  "UK002": {
+   "input_id": "UK002",
+   "place_name": "Burford",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Burford",
+   "canonical_title": "Burford",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Burford",
+   "page_id": "408181",
+   "revision_id": "1364991825",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Main Street in BurfordOxfordshire, UK.jpeg",
+   "caption": "Looking north along 'The Hill'",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg/250px-Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+   "mime_type": "image/jpeg",
+   "width_px": "800",
+   "height_px": "600",
+   "creator_text": "Ettlz at English Wikipedia",
+   "creator_url": "https://en.wikipedia.org/wiki/User:Ettlz",
+   "credit_text": "Transferred from en.wikipedia to Commons by Pauk using CommonsHelper .",
+   "license_short_name": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "license_evidence": "[{\"name\":\"CC BY-SA 3.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"selected\":true},{\"name\":\"GFDL\",\"url\":\"https://www.gnu.org/copyleft/fdl.html\"}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Main Street in BurfordOxfordshire, UK.jpeg — Ettlz at English Wikipedia — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO;MULTI_LICENSE_SUPPORTED_SELECTED",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:09Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 1 September 2026, at 03:40.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Burford",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Burford",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg/250px-Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Looking north along 'The Hill'",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "408181",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1364991825",
+      "source_url": "https://en.wikipedia.org/wiki/Burford",
+      "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+      "retrieved_at_utc": "2026-10-26T02:43:08Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Ettlz at English Wikipedia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://en.wikipedia.org/wiki/User:Ettlz",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Transferred from en.wikipedia to Commons by Pauk using CommonsHelper .",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+      "value": {
+       "name": "CC BY-SA 3.0",
+       "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[2]",
+      "value": {
+       "name": "GFDL",
+       "url": "https://www.gnu.org/copyleft/fdl.html"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 1 September 2026, at 03:40.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (800 × 600 pixels, file size: 178 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+      "retrieved_at_utc": "2026-10-26T02:43:09Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+    "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861"
+   ]
+  },
+  "UK003": {
+   "input_id": "UK003",
+   "place_name": "Bourton-on-the-Water",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+   "canonical_title": "Bourton-on-the-Water",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+   "page_id": "742179",
+   "revision_id": "1376177537",
+   "selection_method": "infobox_first_photo",
+   "file_title": "River Windrush - geograph.org.uk - 1341404.jpg",
+   "caption": "Bridge over the River Windrush",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg/250px-River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "640",
+   "height_px": "457",
+   "creator_text": "Dennis Turner",
+   "creator_url": "https://www.geograph.org.uk/profile/1486",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "River Windrush - geograph.org.uk - 1341404.jpg — Dennis Turner — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:11Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 30 August 2026, at 23:48.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Bourton-on-the-Water",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg/250px-River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Bridge over the River Windrush",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "742179",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1376177537",
+      "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+      "retrieved_at_utc": "2026-10-26T02:43:10Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Dennis Turner",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/1486",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 30 August 2026, at 23:48.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (640 × 457 pixels, file size: 387 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+      "retrieved_at_utc": "2026-10-26T02:43:11Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+    "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06"
+   ]
+  },
+  "UK004": {
+   "input_id": "UK004",
+   "place_name": "Stow-on-the-Wold",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+   "canonical_title": "Stow-on-the-Wold",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+   "page_id": "28731",
+   "revision_id": "1379053526",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Market Square - Stow on the Wold.jpg",
+   "caption": "Market Square",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Market_Square_-_Stow_on_the_Wold.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Market_Square_-_Stow_on_the_Wold.jpg/330px-Market_Square_-_Stow_on_the_Wold.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3426",
+   "height_px": "1478",
+   "creator_text": "Bs0u10e01",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Bs0u10e01",
+   "credit_text": "Own work",
+   "license_short_name": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 4.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/4.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Market Square - Stow on the Wold.jpg — Bs0u10e01 — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:13Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 30 May 2026, at 23:33.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Stow-on-the-Wold",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Market_Square_-_Stow_on_the_Wold.jpg/330px-Market_Square_-_Stow_on_the_Wold.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Market Square",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "28731",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1379053526",
+      "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+      "retrieved_at_utc": "2026-10-26T02:43:12Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Bs0u10e01",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Bs0u10e01",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+      "value": {
+       "name": "CC BY-SA 4.0",
+       "url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 30 May 2026, at 23:33.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Market_Square_-_Stow_on_the_Wold.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,426 × 1,478 pixels, file size: 1.47 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+      "retrieved_at_utc": "2026-10-26T02:43:13Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+    "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542"
+   ]
+  },
+  "UK005": {
+   "input_id": "UK005",
+   "place_name": "Chipping Campden",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+   "canonical_title": "Chipping Campden",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+   "page_id": "373379",
+   "revision_id": "1331540453",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Chipping Campden Church - geograph.org.uk - 557911.jpg",
+   "caption": "St James' church",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg/250px-Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "429",
+   "height_px": "640",
+   "creator_text": "Stephen McKay",
+   "creator_url": "https://www.geograph.org.uk/profile/1621",
+   "credit_text": "From geograph.org.uk ; transferred by User:Kurpfalzbilder.de using geograph_org2commons .",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Chipping Campden Church - geograph.org.uk - 557911.jpg — Stephen McKay — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:15Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 20 August 2026, at 12:39.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Chipping Campden",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg/250px-Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "St James' church",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "373379",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1331540453",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+      "retrieved_at_utc": "2026-10-26T02:43:14Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Stephen McKay",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/1621",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk ; transferred by User:Kurpfalzbilder.de using geograph_org2commons .",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 20 August 2026, at 12:39.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (429 × 640 pixels, file size: 100 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+      "retrieved_at_utc": "2026-10-26T02:43:15Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+    "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74"
+   ]
+  },
+  "UK006": {
+   "input_id": "UK006",
+   "place_name": "Moreton-in-Marsh",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+   "canonical_title": "Moreton-in-Marsh",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+   "page_id": "333174",
+   "revision_id": "1373863827",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Redesdale Hall Moreton in marsh.jpg",
+   "caption": "Redesdale Hall , Moreton-in-Marsh",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg/250px-Redesdale_Hall_Moreton_in_marsh.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3576",
+   "height_px": "3162",
+   "creator_text": "Tony Hisgett from Birmingham, UK",
+   "creator_url": "https://www.flickr.com/photos/37804979@N00",
+   "credit_text": "Redesdale Hall Moreton in marsh 1 Uploaded by oxyman",
+   "license_short_name": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "license_evidence": "[{\"name\":\"CC BY 2.0\",\"url\":\"https://creativecommons.org/licenses/by/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Redesdale Hall Moreton in marsh.jpg — Tony Hisgett from Birmingham, UK — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:17Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 22 November 2025, at 07:26.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Moreton-in-Marsh",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg/250px-Redesdale_Hall_Moreton_in_marsh.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Redesdale Hall , Moreton-in-Marsh",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "333174",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1373863827",
+      "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+      "retrieved_at_utc": "2026-10-26T02:43:16Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Tony Hisgett from Birmingham, UK",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.flickr.com/photos/37804979@N00",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Redesdale Hall Moreton in marsh 1 Uploaded by oxyman",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY 2.0",
+       "url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 22 November 2025, at 07:26.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,576 × 3,162 pixels, file size: 6.64 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+      "retrieved_at_utc": "2026-10-26T02:43:17Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+    "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6"
+   ]
+  },
+  "UK007": {
+   "input_id": "UK007",
+   "place_name": "Painswick",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Painswick",
+   "canonical_title": "Painswick",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Painswick",
+   "page_id": "381991",
+   "revision_id": "1378918354",
+   "selection_method": "infobox_first_photo",
+   "file_title": "PainswickView2.jpg",
+   "caption": "Painswick from Longridge",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/PainswickView2.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/PainswickView2.jpg/250px-PainswickView2.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "2048",
+   "height_px": "1536",
+   "creator_text": "Jongleur100",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+   "credit_text": "Own work",
+   "license_short_name": "Public domain",
+   "license_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg#Licensing",
+   "license_evidence": "[{\"name\":\"Public domain\",\"url\":\"https://commons.wikimedia.org/wiki/File:PainswickView2.jpg#Licensing\",\"source_label\":\"Public domain\",\"basis\":\"PD-self\",\"basis_text\":\"jpg English: Painswick, Gloucestershire from Longridge Date March 2009 Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain .\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "PainswickView2.jpg — Jongleur100 — Public domain — https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO;PD_BASIS:PD-self",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:19Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 27 August 2026, at 21:16.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Painswick",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Painswick",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:PainswickView2.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/PainswickView2.jpg/250px-PainswickView2.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Painswick from Longridge",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "381991",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1378918354",
+      "source_url": "https://en.wikipedia.org/wiki/Painswick",
+      "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+      "retrieved_at_utc": "2026-10-26T02:43:18Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Jongleur100",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+      "value": {
+       "name": "Public domain",
+       "url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg#Licensing",
+       "source_label": "Public domain",
+       "basis": "PD-self",
+       "basis_text": "jpg English: Painswick, Gloucestershire from Longridge Date March 2009 Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain ."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 27 August 2026, at 21:16.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/e/e6/PainswickView2.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (2,048 × 1,536 pixels, file size: 1.64 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+      "retrieved_at_utc": "2026-10-26T02:43:19Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+    "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147"
+   ]
+  },
+  "UK008": {
+   "input_id": "UK008",
+   "place_name": "Tetbury",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Tetbury",
+   "canonical_title": "Tetbury",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Tetbury",
+   "page_id": "584682",
+   "revision_id": "1370323381",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Market Place, Tetbury - geograph.org.uk - 862732.jpg",
+   "caption": "",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg/250px-Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "640",
+   "height_px": "426",
+   "creator_text": "Philip Halling",
+   "creator_url": "https://www.geograph.org.uk/profile/1837",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Market Place, Tetbury - geograph.org.uk - 862732.jpg — Philip Halling — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:21Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 9 August 2026, at 21:18.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Tetbury",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Tetbury",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg/250px-Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "584682",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1370323381",
+      "source_url": "https://en.wikipedia.org/wiki/Tetbury",
+      "response_sha256": "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0",
+      "retrieved_at_utc": "2026-10-26T02:43:20Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Philip Halling",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/1837",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 9 August 2026, at 21:18.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Market_Place%2C_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (640 × 426 pixels, file size: 74 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "response_sha256": "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+      "retrieved_at_utc": "2026-10-26T02:43:21Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "022bfda7eff730298eb83dd1f3ac4378da8c3fb319d018880b219ee0eec64f8b",
+    "cf3c1f6f74ea2fb208910e579f6451be2ff9e6cc9a21aa73bbe4aea96d35d1f0"
+   ]
+  },
+  "UK009": {
+   "input_id": "UK009",
+   "place_name": "Winchcombe",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Winchcombe",
+   "canonical_title": "Winchcombe",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Winchcombe",
+   "page_id": "382015",
+   "revision_id": "1379054814",
+   "selection_method": "infobox_first_photo",
+   "file_title": "St Peter, Winchcombe - geograph.org.uk - 4441897.jpg",
+   "caption": "St Peter's Parish Church",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg/250px-St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3816",
+   "height_px": "6011",
+   "creator_text": "Philip Pankhurst",
+   "creator_url": "https://www.geograph.org.uk/profile/19770",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "St Peter, Winchcombe - geograph.org.uk - 4441897.jpg — Philip Pankhurst — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:23Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 4 March 2025, at 00:19.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Winchcombe",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Winchcombe",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg/250px-St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "St Peter's Parish Church",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "382015",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1379054814",
+      "source_url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "response_sha256": "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+      "retrieved_at_utc": "2026-10-26T02:43:22Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Philip Pankhurst",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/19770",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 4 March 2025, at 00:19.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/0/08/St_Peter%2C_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,816 × 6,011 pixels, file size: 3.46 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "response_sha256": "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727",
+      "retrieved_at_utc": "2026-10-26T02:43:23Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "6a573e3697e673fcf6238cf1d97d4677ab2b7612f8bc59a9876a90d1d06d6f1e",
+    "87061561597eb8e58f4be4aa7554ef7e5ddbc58a396d79509c6a1304be8d2727"
+   ]
+  },
+  "UK010": {
+   "input_id": "UK010",
+   "place_name": "Castle Combe",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+   "canonical_title": "Castle Combe",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+   "page_id": "1070580",
+   "revision_id": "1363817110",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Castle combe river.jpg",
+   "caption": "The main street and Bybrook River",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Castle_combe_river.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Castle_combe_river.jpg/250px-Castle_combe_river.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3863",
+   "height_px": "2759",
+   "creator_text": "Saffron Blaze",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+   "credit_text": "Own work",
+   "license_short_name": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 3.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Castle combe river.jpg — Saffron Blaze — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:25Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 27 April 2026, at 00:41.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Castle Combe",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Castle_combe_river.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Castle_combe_river.jpg/250px-Castle_combe_river.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "The main street and Bybrook River",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "1070580",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1363817110",
+      "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+      "retrieved_at_utc": "2026-10-26T02:43:24Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Saffron Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+      "value": {
+       "name": "CC BY-SA 3.0",
+       "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 27 April 2026, at 00:41.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Castle_combe_river.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,863 × 2,759 pixels, file size: 5.54 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+      "retrieved_at_utc": "2026-10-26T02:43:25Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+    "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892"
+   ]
+  },
+  "UK011": {
+   "input_id": "UK011",
+   "place_name": "Chipping Norton",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+   "canonical_title": "Chipping Norton",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+   "page_id": "564693",
+   "revision_id": "1376673164",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Market Hall and the Co-op - geograph.org.uk - 236399.jpg",
+   "caption": "Chipping Norton Town Hall , built 1842",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg/250px-Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "640",
+   "height_px": "480",
+   "creator_text": "David Stowell",
+   "creator_url": "https://www.geograph.org.uk/profile/120",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Market Hall and the Co-op - geograph.org.uk - 236399.jpg — David Stowell — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:27Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 12 August 2026, at 02:07.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Chipping Norton",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg/250px-Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Chipping Norton Town Hall , built 1842",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "564693",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1376673164",
+      "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+      "retrieved_at_utc": "2026-10-26T02:43:26Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "David Stowell",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/120",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 12 August 2026, at 02:07.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (640 × 480 pixels, file size: 62 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+      "retrieved_at_utc": "2026-10-26T02:43:27Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+    "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215"
+   ]
+  },
+  "UK012": {
+   "input_id": "UK012",
+   "place_name": "Charlbury",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Charlbury",
+   "canonical_title": "Charlbury",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Charlbury",
+   "page_id": "544259",
+   "revision_id": "1376168515",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Charlbury Church - geograph.org.uk - 1014219.jpg",
+   "caption": "St Mary's parish church from the southeast",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg/250px-Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "640",
+   "height_px": "426",
+   "creator_text": "Philip Halling",
+   "creator_url": "https://www.geograph.org.uk/profile/1837",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Charlbury Church - geograph.org.uk - 1014219.jpg — Philip Halling — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:29Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 7 November 2024, at 09:09.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Charlbury",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Charlbury",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg/250px-Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "St Mary's parish church from the southeast",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "544259",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1376168515",
+      "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+      "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+      "retrieved_at_utc": "2026-10-26T02:43:28Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Philip Halling",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/1837",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 7 November 2024, at 09:09.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (640 × 426 pixels, file size: 84 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+      "retrieved_at_utc": "2026-10-26T02:43:29Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+    "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772"
+   ]
+  },
+  "UK013": {
+   "input_id": "UK013",
+   "place_name": "Northleach",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Northleach",
+   "canonical_title": "Northleach",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Northleach",
+   "page_id": "1873547",
+   "revision_id": "1381495310",
+   "selection_method": "infobox_first_photo",
+   "file_title": "NorthleachChurch(ChristineMatthews)1987.jpg",
+   "caption": "SS Peter and Paul parish church",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg/250px-NorthleachChurch%28ChristineMatthews%291987.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "427",
+   "height_px": "640",
+   "creator_text": "Christine Matthews",
+   "creator_url": "https://www.geograph.org.uk/profile/1777",
+   "credit_text": "This file was derived from: Church of St Peter and St Paul, Northleach, Cotswolds - geograph.org.uk - 107650.jpg",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "NorthleachChurch(ChristineMatthews)1987.jpg — Christine Matthews — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:31Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 25 December 2022, at 05:53.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Northleach",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Northleach",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg/250px-NorthleachChurch%28ChristineMatthews%291987.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "SS Peter and Paul parish church",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "1873547",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1381495310",
+      "source_url": "https://en.wikipedia.org/wiki/Northleach",
+      "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+      "retrieved_at_utc": "2026-10-26T02:43:30Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Christine Matthews",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/1777",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "This file was derived from: Church of St Peter and St Paul, Northleach, Cotswolds - geograph.org.uk - 107650.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 25 December 2022, at 05:53.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (427 × 640 pixels, file size: 193 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+      "retrieved_at_utc": "2026-10-26T02:43:31Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+    "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015"
+   ]
+  },
+  "UK014": {
+   "input_id": "UK014",
+   "place_name": "Malmesbury",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Malmesbury",
+   "canonical_title": "Malmesbury",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Malmesbury",
+   "page_id": "28122539",
+   "revision_id": "1367874364",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Malmesbury Abbey west tower.jpg",
+   "caption": "Malmesbury Abbey",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Malmesbury_Abbey_west_tower.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Malmesbury_Abbey_west_tower.jpg/250px-Malmesbury_Abbey_west_tower.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "972",
+   "height_px": "1298",
+   "creator_text": "Andrew Dunn",
+   "creator_url": "https://en.wikipedia.org/wiki/User:Solipsist",
+   "credit_text": "Photograph © Andrew Dunn , 15 September 2005.",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Malmesbury Abbey west tower.jpg — Andrew Dunn — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO;CREATOR_FROM_COPYRIGHT_NOTICE",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:33Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 1 September 2026, at 17:52.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Malmesbury",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Malmesbury",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Malmesbury_Abbey_west_tower.jpg/250px-Malmesbury_Abbey_west_tower.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Malmesbury Abbey",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "28122539",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1367874364",
+      "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+      "retrieved_at_utc": "2026-10-26T02:43:32Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[1]/td",
+      "value": {
+       "value": "Andrew Dunn",
+       "notice": "Photograph © Andrew Dunn , 15 September 2005."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://en.wikipedia.org/wiki/User:Solipsist",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[1]/td",
+      "value": "Photograph © Andrew Dunn , 15 September 2005.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[3]/td/div/div[2]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 1 September 2026, at 17:52.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/4/42/Malmesbury_Abbey_west_tower.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (972 × 1,298 pixels, file size: 316 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+      "retrieved_at_utc": "2026-10-26T02:43:33Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+    "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00"
+   ]
+  },
+  "UK015": {
+   "input_id": "UK015",
+   "place_name": "Fairford",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Fairford",
+   "canonical_title": "Fairford",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Fairford",
+   "page_id": "661387",
+   "revision_id": "1378628545",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Fishing River Coln Fairford.jpg",
+   "caption": "River Coln , Fairford",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fishing_River_Coln_Fairford.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fishing_River_Coln_Fairford.jpg/250px-Fishing_River_Coln_Fairford.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3326",
+   "height_px": "2678",
+   "creator_text": "Saffron Blaze",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+   "credit_text": "Own work",
+   "license_short_name": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 3.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Fishing River Coln Fairford.jpg — Saffron Blaze — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:35Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 21 January 2026, at 18:44.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Fairford",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Fairford",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fishing_River_Coln_Fairford.jpg/250px-Fishing_River_Coln_Fairford.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "River Coln , Fairford",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "661387",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1378628545",
+      "source_url": "https://en.wikipedia.org/wiki/Fairford",
+      "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+      "retrieved_at_utc": "2026-10-26T02:43:34Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Saffron Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+      "value": {
+       "name": "CC BY-SA 3.0",
+       "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 21 January 2026, at 18:44.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fishing_River_Coln_Fairford.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,326 × 2,678 pixels, file size: 8 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+      "retrieved_at_utc": "2026-10-26T02:43:35Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+    "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481"
+   ]
+  },
+  "UK016": {
+   "input_id": "UK016",
+   "place_name": "Lechlade",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Lechlade",
+   "canonical_title": "Lechlade",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Lechlade",
+   "page_id": "377845",
+   "revision_id": "1360114889",
+   "selection_method": "infobox_first_photo",
+   "file_title": "A Frosty Day in Lechlade.JPG",
+   "caption": "St Lawrence's seen across the Thames",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/A_Frosty_Day_in_Lechlade.JPG",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_Frosty_Day_in_Lechlade.JPG/250px-A_Frosty_Day_in_Lechlade.JPG",
+   "mime_type": "image/jpeg",
+   "width_px": "2848",
+   "height_px": "2136",
+   "creator_text": "Jennie Rainsford",
+   "creator_url": "",
+   "credit_text": "Own work",
+   "license_short_name": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 3.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/3.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "A Frosty Day in Lechlade.JPG — Jennie Rainsford — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:37Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 26 January 2026, at 23:41.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Lechlade",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Lechlade",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_Frosty_Day_in_Lechlade.JPG/250px-A_Frosty_Day_in_Lechlade.JPG",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "St Lawrence's seen across the Thames",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "377845",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1360114889",
+      "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+      "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+      "retrieved_at_utc": "2026-10-26T02:43:36Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Jennie Rainsford",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+      "value": {
+       "name": "CC BY-SA 3.0",
+       "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 26 January 2026, at 23:41.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/7/7e/A_Frosty_Day_in_Lechlade.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (2,848 × 2,136 pixels, file size: 1.37 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+      "retrieved_at_utc": "2026-10-26T02:43:37Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+    "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64"
+   ]
+  },
+  "UK017": {
+   "input_id": "UK017",
+   "place_name": "Nailsworth",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Nailsworth",
+   "canonical_title": "Nailsworth",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Nailsworth",
+   "page_id": "517914",
+   "revision_id": "1340049686",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Nailsworth railway station (site), Gloucestershire (geograph 7015946).jpg",
+   "caption": "Nailsworth Station",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg/120px-Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "1600",
+   "height_px": "1200",
+   "creator_text": "Nigel Thompson",
+   "creator_url": "https://www.geograph.org.uk/profile/84225",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Nailsworth railway station (site), Gloucestershire (geograph 7015946).jpg — Nigel Thompson — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:39Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 20 October 2024, at 20:16.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Nailsworth",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Nailsworth",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg/120px-Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a",
+      "value": "Nailsworth Station",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "517914",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1340049686",
+      "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+      "retrieved_at_utc": "2026-10-26T02:43:38Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Nigel Thompson",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/84225",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 20 October 2024, at 20:16.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (1,600 × 1,200 pixels, file size: 605 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+      "retrieved_at_utc": "2026-10-26T02:43:39Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+    "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1"
+   ]
+  },
+  "UK018": {
+   "input_id": "UK018",
+   "place_name": "Dursley",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Dursley",
+   "canonical_title": "Dursley",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Dursley",
+   "page_id": "156569",
+   "revision_id": "1369017832",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Dursley Market House (geograph 2838109).jpg",
+   "caption": "Dursley Town Hall and St James the Great parish church",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg/250px-Dursley_Market_House_%28geograph_2838109%29.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "640",
+   "height_px": "480",
+   "creator_text": "David Dixon",
+   "creator_url": "https://www.geograph.org.uk/profile/43729",
+   "credit_text": "From geograph.org.uk",
+   "license_short_name": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "license_evidence": "[{\"name\":\"CC BY-SA 2.0\",\"url\":\"https://creativecommons.org/licenses/by-sa/2.0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Dursley Market House (geograph 2838109).jpg — David Dixon — CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:41Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 2 May 2026, at 00:23.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Dursley",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Dursley",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg/250px-Dursley_Market_House_%28geograph_2838109%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+      "value": "Dursley Town Hall and St James the Great parish church",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "156569",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1369017832",
+      "source_url": "https://en.wikipedia.org/wiki/Dursley",
+      "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+      "retrieved_at_utc": "2026-10-26T02:43:40Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "David Dixon",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://www.geograph.org.uk/profile/43729",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "From geograph.org.uk",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+      "value": {
+       "name": "CC BY-SA 2.0",
+       "url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 2 May 2026, at 00:23.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (640 × 480 pixels, file size: 386 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+      "retrieved_at_utc": "2026-10-26T02:43:41Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+    "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63"
+   ]
+  },
+  "UK019": {
+   "input_id": "UK019",
+   "place_name": "Minchinhampton",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+   "canonical_title": "Minchinhampton",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+   "page_id": "872946",
+   "revision_id": "1370295517",
+   "selection_method": "infobox_first_photo",
+   "file_title": "Minch market square.JPG",
+   "caption": "Market Square",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Minch_market_square.JPG",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Minch_market_square.JPG/250px-Minch_market_square.JPG",
+   "mime_type": "image/jpeg",
+   "width_px": "1503",
+   "height_px": "949",
+   "creator_text": "Jongleur100",
+   "creator_url": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+   "credit_text": "Own work",
+   "license_short_name": "Public domain",
+   "license_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG#Licensing",
+   "license_evidence": "[{\"name\":\"Public domain\",\"url\":\"https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG#Licensing\",\"source_label\":\"Public domain\",\"basis\":\"PD-self\",\"basis_text\":\"JPG English: Market Square, Minchinhampton Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain .\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "Minch market square.JPG — Jongleur100 — Public domain — https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO;PD_BASIS:PD-self",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:43Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 6 September 2025, at 11:06.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Minchinhampton",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:Minch_market_square.JPG",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Minch_market_square.JPG/250px-Minch_market_square.JPG",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "Market Square",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "872946",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1370295517",
+      "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+      "retrieved_at_utc": "2026-10-26T02:43:42Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Jongleur100",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]",
+      "value": "Own work",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+      "value": {
+       "name": "Public domain",
+       "url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG#Licensing",
+       "source_label": "Public domain",
+       "basis": "PD-self",
+       "basis_text": "JPG English: Market Square, Minchinhampton Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain ."
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 6 September 2025, at 11:06.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/3/34/Minch_market_square.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (1,503 × 949 pixels, file size: 318 KB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+      "retrieved_at_utc": "2026-10-26T02:43:43Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+    "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe"
+   ]
+  },
+  "UK020": {
+   "input_id": "UK020",
+   "place_name": "Wotton-under-Edge",
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+   "canonical_title": "Wotton-under-Edge",
+   "canonical_page_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+   "page_id": "555701",
+   "revision_id": "1379054912",
+   "selection_method": "infobox_first_photo",
+   "file_title": "St MaryTheVirginChurchWootton-under-Edge.jpg",
+   "caption": "St Mary the Virgin, Wotton-under-Edge",
+   "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+   "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg",
+   "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg/250px-St_MaryTheVirginChurchWootton-under-Edge.jpg",
+   "mime_type": "image/jpeg",
+   "width_px": "3648",
+   "height_px": "2736",
+   "creator_text": "Lobsterthermidor at en.wikipedia",
+   "creator_url": "https://en.wikipedia.org/wiki/User:Lobsterthermidor",
+   "credit_text": "Own work Transferred from en.wikipedia",
+   "license_short_name": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "license_evidence": "[{\"name\":\"CC0 1.0\",\"url\":\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\",\"source_label\":\"CC0\",\"selected\":true}]",
+   "license_status": "SUPPORTED_METADATA",
+   "attribution_text": "St MaryTheVirginChurchWootton-under-Edge.jpg — Lobsterthermidor at en.wikipedia — CC0 1.0 — https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+   "status": "CANDIDATE",
+   "reason_code": "FIRST_INFOBOX_PHOTO",
+   "reviewed": "PENDING",
+   "reviewer_note": "",
+   "retrieved_at_utc": "2026-10-26T02:43:45Z",
+   "evidence_path": "",
+   "source_revision_or_timestamp": "This page was last edited on 14 September 2026, at 23:32.",
+   "_evidence": {
+    "article": [
+     {
+      "field": "canonical_title",
+      "locator": "//*[@id='firstHeading']",
+      "value": "Wotton-under-Edge",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "canonical_page_url",
+      "locator": "//link[@rel='canonical']",
+      "value": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "file_link",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "https://en.wikipedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "thumbnail_media_url",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+      "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg/250px-St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "caption",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+      "value": "St Mary the Virgin, Wotton-under-Edge",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "page_id",
+      "locator": "mw.config wgArticleId",
+      "value": "555701",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     },
+     {
+      "field": "revision_id",
+      "locator": "mw.config wgRevisionId",
+      "value": "1379054912",
+      "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+      "retrieved_at_utc": "2026-10-26T02:43:44Z"
+     }
+    ],
+    "commons": [
+     {
+      "field": "creator_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+      "value": "Lobsterthermidor at en.wikipedia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "creator_url",
+      "locator": "creator cell first HTTPS link",
+      "value": "https://en.wikipedia.org/wiki/User:Lobsterthermidor",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "credit_text",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+      "value": "Own work Transferred from en.wikipedia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "license",
+      "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/table",
+      "value": {
+       "name": "CC0 1.0",
+       "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+       "source_label": "CC0"
+      },
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "source_revision_or_timestamp",
+      "locator": "//*[@id='footer-info-lastmod']",
+      "value": "This page was last edited on 14 September 2026, at 23:32.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "original_file_url",
+      "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     },
+     {
+      "field": "media_properties",
+      "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+      "value": "Original file (3,648 × 2,736 pixels, file size: 2.13 MB, MIME type: image/jpeg )",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+      "retrieved_at_utc": "2026-10-26T02:43:45Z"
+     }
+    ]
+   },
+   "_source_hashes": [
+    "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+    "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970"
+   ]
+  }
+ }
+}

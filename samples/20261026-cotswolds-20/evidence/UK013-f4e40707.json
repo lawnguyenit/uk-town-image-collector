@@ -1,0 +1,129 @@
+{
+  "input_id": "UK013",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Northleach",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:31Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Northleach",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Northleach",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg/250px-NorthleachChurch%28ChristineMatthews%291987.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "SS Peter and Paul parish church",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "1873547",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1381495310",
+        "source_url": "https://en.wikipedia.org/wiki/Northleach",
+        "response_sha256": "a3460127b0104e5584d8f35102b582c01a6f7973e1534578c048e74138ce5015",
+        "retrieved_at_utc": "2026-10-26T02:43:30Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Christine Matthews",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/1777",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "This file was derived from: Church of St Peter and St Paul, Northleach, Cotswolds - geograph.org.uk - 107650.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 25 December 2022, at 05:53.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/e/ee/NorthleachChurch%28ChristineMatthews%291987.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (427 × 640 pixels, file size: 193 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+        "response_sha256": "025691b778fa835e4cbc2c0781015a2e6b8e7c53361ee6e020ef9eef3269dc7a",
+        "retrieved_at_utc": "2026-10-26T02:43:31Z"
+      }
+    ]
+  }
+}

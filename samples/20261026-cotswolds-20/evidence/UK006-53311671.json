@@ -1,0 +1,129 @@
+{
+  "input_id": "UK006",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:17Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Moreton-in-Marsh",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg/250px-Redesdale_Hall_Moreton_in_marsh.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Redesdale Hall , Moreton-in-Marsh",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "333174",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1373863827",
+        "source_url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+        "response_sha256": "a82e6f195f476815d69ea07851674eab1902520077e47255a99352ebd3775132",
+        "retrieved_at_utc": "2026-10-26T02:43:16Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Tony Hisgett from Birmingham, UK",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.flickr.com/photos/37804979@N00",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Redesdale Hall Moreton in marsh 1 Uploaded by oxyman",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY 2.0",
+          "url": "https://creativecommons.org/licenses/by/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 22 November 2025, at 07:26.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Redesdale_Hall_Moreton_in_marsh.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,576 × 3,162 pixels, file size: 6.64 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+        "response_sha256": "abbb9f48fbc5edc24f84848507acbc0e90c1bcea594fb892b98f9e05b5b023f6",
+        "retrieved_at_utc": "2026-10-26T02:43:17Z"
+      }
+    ]
+  }
+}

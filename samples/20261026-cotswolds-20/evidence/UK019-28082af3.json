@@ -1,0 +1,132 @@
+{
+  "input_id": "UK019",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO;PD_BASIS:PD-self",
+  "article_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+  "retrieved_at_utc": "2026-10-26T02:43:43Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Minchinhampton",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Minch_market_square.JPG",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Minch_market_square.JPG/250px-Minch_market_square.JPG",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Market Square",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "872946",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1370295517",
+        "source_url": "https://en.wikipedia.org/wiki/Minchinhampton",
+        "response_sha256": "414965269c9fe3de7f73169de97498a22e1561d86e8dbc77e8c10b165796e0f4",
+        "retrieved_at_utc": "2026-10-26T02:43:42Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Jongleur100",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+        "value": {
+          "name": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG#Licensing",
+          "source_label": "Public domain",
+          "basis": "PD-self",
+          "basis_text": "JPG English: Market Square, Minchinhampton Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain ."
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 6 September 2025, at 11:06.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/3/34/Minch_market_square.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (1,503 × 949 pixels, file size: 318 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+        "response_sha256": "f78fed61448440d48d557872d9c51abc12255344b44770d54b4343772c326dfe",
+        "retrieved_at_utc": "2026-10-26T02:43:43Z"
+      }
+    ]
+  }
+}

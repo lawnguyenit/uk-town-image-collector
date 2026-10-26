@@ -1,0 +1,129 @@
+{
+  "input_id": "UK004",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:13Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Stow-on-the-Wold",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Market_Square_-_Stow_on_the_Wold.jpg/330px-Market_Square_-_Stow_on_the_Wold.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Market Square",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "28731",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1379053526",
+        "source_url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+        "response_sha256": "156d4a38be3a3d1650eef8083e5ce6e38b9e167952795940e9ffd3565226be3d",
+        "retrieved_at_utc": "2026-10-26T02:43:12Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Bs0u10e01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Bs0u10e01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+        "value": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 30 May 2026, at 23:33.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Market_Square_-_Stow_on_the_Wold.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,426 × 1,478 pixels, file size: 1.47 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+        "response_sha256": "f0ad6b85688c7cf19c22dfc0df103cd92f590800f4d99d5afdeb0d345f9fb542",
+        "retrieved_at_utc": "2026-10-26T02:43:13Z"
+      }
+    ]
+  }
+}

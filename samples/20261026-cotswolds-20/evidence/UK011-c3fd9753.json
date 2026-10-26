@@ -1,0 +1,129 @@
+{
+  "input_id": "UK011",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:27Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Chipping Norton",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg/250px-Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Chipping Norton Town Hall , built 1842",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "564693",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1376673164",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+        "response_sha256": "ab1d129ec98ca731474117d1294762df983ab153cb14f67db7ea31a7a8c79215",
+        "retrieved_at_utc": "2026-10-26T02:43:26Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "David Stowell",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/120",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 12 August 2026, at 02:07.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (640 × 480 pixels, file size: 62 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+        "response_sha256": "0b354cbc88468e866314a6feb6f2219fcd378872f85e3a87137090313c58655c",
+        "retrieved_at_utc": "2026-10-26T02:43:27Z"
+      }
+    ]
+  }
+}

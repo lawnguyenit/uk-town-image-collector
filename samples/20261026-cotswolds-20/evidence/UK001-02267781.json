@@ -1,0 +1,129 @@
+{
+  "input_id": "UK001",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Bibury",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:07Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Bibury",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Bibury",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Arlington_Row_Bibury.jpg/250px-Arlington_Row_Bibury.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Arlington Row: Cotswold stone cottages",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "1427381",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1377979115",
+        "source_url": "https://en.wikipedia.org/wiki/Bibury",
+        "response_sha256": "62746ab0b539b91b073fb968205441aae3ae9c02d9bb996506c8bc377530e692",
+        "retrieved_at_utc": "2026-10-26T02:43:06Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[4]/td[2]",
+        "value": "Saffron Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[3]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[3]/table/tbody/tr[5]/td[2]/div/div[2]",
+        "value": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 14 December 2025, at 10:02.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Arlington_Row_Bibury.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (4,113 × 2,575 pixels, file size: 7.7 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+        "response_sha256": "33a755258c464deab909a44e4d67f189142724b7e0290934e4bdcb32d5c2d55b",
+        "retrieved_at_utc": "2026-10-26T02:43:07Z"
+      }
+    ]
+  }
+}

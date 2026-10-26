@@ -1,0 +1,130 @@
+{
+  "input_id": "UK020",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:45Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Wotton-under-Edge",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg/250px-St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "St Mary the Virgin, Wotton-under-Edge",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "555701",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1379054912",
+        "source_url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+        "response_sha256": "fbcb89fa93f824bcd08ee1f929b70b990670a6132d8e91924032bf8b726a6970",
+        "retrieved_at_utc": "2026-10-26T02:43:44Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Lobsterthermidor at en.wikipedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://en.wikipedia.org/wiki/User:Lobsterthermidor",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Own work Transferred from en.wikipedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/table",
+        "value": {
+          "name": "CC0 1.0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_label": "CC0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 14 September 2026, at 23:32.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/1/10/St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,648 × 2,736 pixels, file size: 2.13 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+        "response_sha256": "5f8e66572d45c63ed72a274825465b45ea19968e6d7a4a62b10e82607df54ccc",
+        "retrieved_at_utc": "2026-10-26T02:43:45Z"
+      }
+    ]
+  }
+}

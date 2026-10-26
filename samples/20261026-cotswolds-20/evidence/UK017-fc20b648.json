@@ -1,0 +1,129 @@
+{
+  "input_id": "UK017",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Nailsworth",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:39Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Nailsworth",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Nailsworth",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg/120px-Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/div/div/div[1]/div[1]/div[1]/span/a",
+        "value": "Nailsworth Station",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "517914",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1340049686",
+        "source_url": "https://en.wikipedia.org/wiki/Nailsworth",
+        "response_sha256": "c11cb8de2a41bd6292acf1003194658fc11677bd3572d8c43cd909d542609eb1",
+        "retrieved_at_utc": "2026-10-26T02:43:38Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Nigel Thompson",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/84225",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 20 October 2024, at 20:16.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Nailsworth_railway_station_%28site%29%2C_Gloucestershire_%28geograph_7015946%29.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (1,600 × 1,200 pixels, file size: 605 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+        "response_sha256": "80253a4d1b1935addbf71971ec65d301082ed4648f5061bab013a3b3af6336f4",
+        "retrieved_at_utc": "2026-10-26T02:43:39Z"
+      }
+    ]
+  }
+}

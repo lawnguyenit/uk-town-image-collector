@@ -1,0 +1,132 @@
+{
+  "input_id": "UK014",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO;CREATOR_FROM_COPYRIGHT_NOTICE",
+  "article_url": "https://en.wikipedia.org/wiki/Malmesbury",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:33Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Malmesbury",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Malmesbury",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Malmesbury_Abbey_west_tower.jpg/250px-Malmesbury_Abbey_west_tower.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Malmesbury Abbey",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "28122539",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1367874364",
+        "source_url": "https://en.wikipedia.org/wiki/Malmesbury",
+        "response_sha256": "9205f5ae263a6ee87fd6308a62d5c907436d5d0806fa8f26584df5067731399a",
+        "retrieved_at_utc": "2026-10-26T02:43:32Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[1]/td",
+        "value": {
+          "value": "Andrew Dunn",
+          "notice": "Photograph © Andrew Dunn , 15 September 2005."
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://en.wikipedia.org/wiki/User:Solipsist",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[1]/td",
+        "value": "Photograph © Andrew Dunn , 15 September 2005.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table/tbody/tr[3]/td/div/div[2]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 1 September 2026, at 17:52.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/4/42/Malmesbury_Abbey_west_tower.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (972 × 1,298 pixels, file size: 316 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+        "response_sha256": "ee5758d8f971e989c40dd01cbc9d2a2ff6fe6ba1f3476674da7ba8db7116ad00",
+        "retrieved_at_utc": "2026-10-26T02:43:33Z"
+      }
+    ]
+  }
+}

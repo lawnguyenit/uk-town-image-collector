@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uk-town-image-collector"
+version = "0.1.0"
+description = "Bounded, review-first Wikimedia Commons image metadata collector for supplied UK town article URLs."
+requires-python = ">=3.11"
+dependencies = ["lxml==6.1.3", "openpyxl==3.1.5", "requests==2.34.2"]
+
+[project.scripts]
+uk-town-image-collector = "uk_town_image_collector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

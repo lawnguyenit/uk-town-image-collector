@@ -1,0 +1,129 @@
+{
+  "input_id": "UK003",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:11Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Bourton-on-the-Water",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg/250px-River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Bridge over the River Windrush",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "742179",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1376177537",
+        "source_url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+        "response_sha256": "0e5897bcec5e40a77221449291f38dfe287157330ae6d43721c6082c8a4931b3",
+        "retrieved_at_utc": "2026-10-26T02:43:10Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Dennis Turner",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/1486",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 30 August 2026, at 23:48.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/5/53/River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (640 × 457 pixels, file size: 387 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+        "response_sha256": "3711616ecc25910cb77204f56ad5dcf6adaf7b5ea28fd89c5f1286dbb61aeb06",
+        "retrieved_at_utc": "2026-10-26T02:43:11Z"
+      }
+    ]
+  }
+}

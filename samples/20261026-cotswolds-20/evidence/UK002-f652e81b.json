@@ -1,0 +1,140 @@
+{
+  "input_id": "UK002",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO;MULTI_LICENSE_SUPPORTED_SELECTED",
+  "article_url": "https://en.wikipedia.org/wiki/Burford",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+  "retrieved_at_utc": "2026-10-26T02:43:09Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Burford",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Burford",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg/250px-Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Looking north along 'The Hill'",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "408181",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1364991825",
+        "source_url": "https://en.wikipedia.org/wiki/Burford",
+        "response_sha256": "2fbe138eef03204571ed1dcfd2f970bd275a00e22d41ae7f00c205d75abc5123",
+        "retrieved_at_utc": "2026-10-26T02:43:08Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Ettlz at English Wikipedia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://en.wikipedia.org/wiki/User:Ettlz",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Transferred from en.wikipedia to Commons by Pauk using CommonsHelper .",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+        "value": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[2]",
+        "value": {
+          "name": "GFDL",
+          "url": "https://www.gnu.org/copyleft/fdl.html"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 1 September 2026, at 03:40.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Main_Street_in_BurfordOxfordshire%2C_UK.jpeg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (800 × 600 pixels, file size: 178 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+        "response_sha256": "affb351c4e393b60b982842f4cbf3b521ad519c82757bec6706fb2a35f03e861",
+        "retrieved_at_utc": "2026-10-26T02:43:09Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "input_id": "UK007",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO;PD_BASIS:PD-self",
+  "article_url": "https://en.wikipedia.org/wiki/Painswick",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:19Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Painswick",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Painswick",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:PainswickView2.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/PainswickView2.jpg/250px-PainswickView2.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "Painswick from Longridge",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "381991",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1378918354",
+        "source_url": "https://en.wikipedia.org/wiki/Painswick",
+        "response_sha256": "bf2f4b15fc645c731700d91bc1d3db15e955341f7c95c4e96a1f3adff5a2a147",
+        "retrieved_at_utc": "2026-10-26T02:43:18Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Jongleur100",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Jongleur100",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/table[1]",
+        "value": {
+          "name": "Public domain",
+          "url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg#Licensing",
+          "source_label": "Public domain",
+          "basis": "PD-self",
+          "basis_text": "jpg English: Painswick, Gloucestershire from Longridge Date March 2009 Source Own work Author Jongleur100 Licensing [ edit ] Public domain Public domain false false I, the copyright holder of this work, release this work into the public domain ."
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 27 August 2026, at 21:16.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/e/e6/PainswickView2.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (2,048 × 1,536 pixels, file size: 1.64 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+        "response_sha256": "7f2310b366701d0894b403e2732dd487072a570ce428bf9a6a7aa90f2262f28c",
+        "retrieved_at_utc": "2026-10-26T02:43:19Z"
+      }
+    ]
+  }
+}

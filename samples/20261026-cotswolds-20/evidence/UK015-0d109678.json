@@ -1,0 +1,129 @@
+{
+  "input_id": "UK015",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Fairford",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:35Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Fairford",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Fairford",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fishing_River_Coln_Fairford.jpg/250px-Fishing_River_Coln_Fairford.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "River Coln , Fairford",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "661387",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1378628545",
+        "source_url": "https://en.wikipedia.org/wiki/Fairford",
+        "response_sha256": "9a5770398a842c0109eb533804518e270455e6107dcf7550918ea65d49b6f481",
+        "retrieved_at_utc": "2026-10-26T02:43:34Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Saffron Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+        "value": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 21 January 2026, at 18:44.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fishing_River_Coln_Fairford.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,326 × 2,678 pixels, file size: 8 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+        "response_sha256": "145d21def6c6d62919d739a88ed2b1960498521358a854f068e3407a892d3d95",
+        "retrieved_at_utc": "2026-10-26T02:43:35Z"
+      }
+    ]
+  }
+}

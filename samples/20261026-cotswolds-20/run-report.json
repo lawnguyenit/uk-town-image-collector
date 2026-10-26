@@ -1,0 +1,333 @@
+{
+  "job_id": "uk-town-image-collector-v1",
+  "run_id": "20261026T032327433492Z",
+  "run_mode": "full",
+  "started_at_utc": "2026-10-26T03:23:27Z",
+  "finished_at_utc": "2026-10-26T03:23:29Z",
+  "code_version": "1.0.0",
+  "config_version": "2026-10-26.2",
+  "input_file_sha256": "df68e1ae0d38efb2bbdedc80a78c298e53aaf2da7a6cc18f073db96f33eda268",
+  "input_count": 20,
+  "processed_count": 20,
+  "resumed_from": "",
+  "rows_restored_from_checkpoint": [],
+  "unique_input_article_urls": 20,
+  "unique_canonical_pages": 20,
+  "unique_image_files": 20,
+  "request_count": 2,
+  "cache_hits": 40,
+  "retry_count": 0,
+  "max_request_budget": 62,
+  "status_counts": {
+    "CANDIDATE": 20
+  },
+  "complete_candidate_count": 20,
+  "metadata_complete_count": 20,
+  "review": {
+    "decisions_loaded": 20,
+    "applied": 20,
+    "invalidated_changed_metadata": 0,
+    "unmatched": 0
+  },
+  "review_approved_count": 20,
+  "review_rejected_count": 0,
+  "review_pending_count": 0,
+  "ready_for_import_count": 20,
+  "run_status": "COMPLETED",
+  "stop_reason": "",
+  "robot_policy_evidence": [
+    {
+      "host": "en.wikipedia.org",
+      "url": "https://en.wikipedia.org/robots.txt",
+      "status": 200,
+      "sha256": "48b98d80c8444d37cdf50cc9a4d2257b66039477e581066d2356062a4cbd678f",
+      "retrieved_at_utc": "2026-10-26T03:23:27Z"
+    },
+    {
+      "host": "commons.wikimedia.org",
+      "url": "https://commons.wikimedia.org/robots.txt",
+      "status": 200,
+      "sha256": "89c0b6b55d04a401346110c36c8cd8663a3443f4b69cb2909a26ff79ac8f3884",
+      "retrieved_at_utc": "2026-10-26T03:23:28Z"
+    }
+  ],
+  "request_log": [
+    {
+      "url": "https://en.wikipedia.org/robots.txt",
+      "purpose": "robots",
+      "cache": false,
+      "status": 200,
+      "sha256": "48b98d80c8444d37cdf50cc9a4d2257b66039477e581066d2356062a4cbd678f"
+    },
+    {
+      "url": "https://commons.wikimedia.org/robots.txt",
+      "purpose": "robots",
+      "cache": false,
+      "status": 200,
+      "sha256": "89c0b6b55d04a401346110c36c8cd8663a3443f4b69cb2909a26ff79ac8f3884"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bibury",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Arlington_Row_Bibury.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Burford",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Main_Street_in_BurfordOxfordshire,_UK.jpeg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:River_Windrush_-_geograph.org.uk_-_1341404.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stow-on-the-Wold",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Market_Square_-_Stow_on_the_Wold.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Moreton-in-Marsh",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Redesdale_Hall_Moreton_in_marsh.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Painswick",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:PainswickView2.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tetbury",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Market_Place,_Tetbury_-_geograph.org.uk_-_862732.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Winchcombe",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:St_Peter,_Winchcombe_-_geograph.org.uk_-_4441897.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Castle_Combe",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chipping_Norton",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Market_Hall_and_the_Co-op_-_geograph.org.uk_-_236399.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlbury",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Northleach",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:NorthleachChurch(ChristineMatthews)1987.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Malmesbury",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Malmesbury_Abbey_west_tower.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fairford",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fishing_River_Coln_Fairford.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lechlade",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nailsworth",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Nailsworth_railway_station_(site),_Gloucestershire_(geograph_7015946).jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dursley",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Minchinhampton",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Minch_market_square.JPG",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wotton-under-Edge",
+      "purpose": "wikipedia_article",
+      "cache": true,
+      "status": 200
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:St_MaryTheVirginChurchWootton-under-Edge.jpg",
+      "purpose": "commons_file_page",
+      "cache": true,
+      "status": 200
+    }
+  ],
+  "acceptance_note": "Extraction, metadata completeness, human review and import-readiness are reported separately; none of them is an accuracy score or legal clearance.",
+  "artifacts": {
+    "results.csv": {
+      "path": "results.csv",
+      "sha256": "4a68e3648f263e04c5eb2db9b53b93e7e72f406b2199822920c8ff3bdc26bafb"
+    },
+    "results.xlsx": {
+      "path": "results.xlsx",
+      "sha256": "295f2f478d6fb88ea0b1152deb60051711f5868f52a7c02fb7d6ddedad22cb49"
+    },
+    "review.csv": {
+      "path": "review.csv",
+      "sha256": "8df1a9f22b5e76945446cdcdad3e23b7c94eb1cc981b3aa11c4ba8e550510e1f"
+    },
+    "ready_for_import.csv": {
+      "path": "ready_for_import.csv",
+      "sha256": "4a68e3648f263e04c5eb2db9b53b93e7e72f406b2199822920c8ff3bdc26bafb"
+    },
+    "evidence-index.csv": {
+      "path": "evidence-index.csv",
+      "sha256": "a8a2dce352f78fc27cee3a4928622f0c6f8e8b1c62f9b80ba615f427b92e2817"
+    }
+  }
+}

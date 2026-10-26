@@ -1,0 +1,121 @@
+{
+  "input_id": "UK016",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Lechlade",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+  "retrieved_at_utc": "2026-10-26T02:43:37Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Lechlade",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Lechlade",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/A_Frosty_Day_in_Lechlade.JPG/250px-A_Frosty_Day_in_Lechlade.JPG",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "St Lawrence's seen across the Thames",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "377845",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1360114889",
+        "source_url": "https://en.wikipedia.org/wiki/Lechlade",
+        "response_sha256": "8221125a93feed59cad15665d5f1bd38493ce07c62940be86018d21a42e4936b",
+        "retrieved_at_utc": "2026-10-26T02:43:36Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Jennie Rainsford",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+        "value": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 26 January 2026, at 23:41.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/7/7e/A_Frosty_Day_in_Lechlade.JPG",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (2,848 × 2,136 pixels, file size: 1.37 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Frosty_Day_in_Lechlade.JPG",
+        "response_sha256": "fcf66452c3f9b459a44c6cf4a243384b89d59ce2cf9b4a65b2660386de903e64",
+        "retrieved_at_utc": "2026-10-26T02:43:37Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "input_id": "UK012",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Charlbury",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:29Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Charlbury",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Charlbury",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg/250px-Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "St Mary's parish church from the southeast",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "544259",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1376168515",
+        "source_url": "https://en.wikipedia.org/wiki/Charlbury",
+        "response_sha256": "02f612f3e0dd4a0043e53f506f62a60edc789823399f2748a24d5d169229c757",
+        "retrieved_at_utc": "2026-10-26T02:43:28Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Philip Halling",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/1837",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 7 November 2024, at 09:09.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (640 × 426 pixels, file size: 84 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Charlbury_Church_-_geograph.org.uk_-_1014219.jpg",
+        "response_sha256": "431543d6bcae6927afbc4bc9e6ad4c311320f5a27a5c0c9af2c32ff0548f8772",
+        "retrieved_at_utc": "2026-10-26T02:43:29Z"
+      }
+    ]
+  }
+}

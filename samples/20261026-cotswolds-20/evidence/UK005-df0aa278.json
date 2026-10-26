@@ -1,0 +1,129 @@
+{
+  "input_id": "UK005",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:15Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Chipping Campden",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg/250px-Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[2]/td/span/a",
+        "value": "St James' church",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "373379",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1331540453",
+        "source_url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+        "response_sha256": "ca483d5cb789731a866ff43fd3587b1fd602ef303f4ef18eb354162023288a74",
+        "retrieved_at_utc": "2026-10-26T02:43:14Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Stephen McKay",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/1621",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk ; transferred by User:Kurpfalzbilder.de using geograph_org2commons .",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 20 August 2026, at 12:39.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (429 × 640 pixels, file size: 100 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chipping_Campden_Church_-_geograph.org.uk_-_557911.jpg",
+        "response_sha256": "48fbf5508881aa777d84b3da9b1e62a67b7d5ef8f2c5c3e5b01f1059d999b966",
+        "retrieved_at_utc": "2026-10-26T02:43:15Z"
+      }
+    ]
+  }
+}

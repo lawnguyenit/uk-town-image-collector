@@ -1,0 +1,129 @@
+{
+  "input_id": "UK018",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Dursley",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:41Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Dursley",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Dursley",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg/250px-Dursley_Market_House_%28geograph_2838109%29.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "Dursley Town Hall and St James the Great parish church",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "156569",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1369017832",
+        "source_url": "https://en.wikipedia.org/wiki/Dursley",
+        "response_sha256": "c916d033ddda33f2db4d61141d25e12a5c37dcf66c7b5ce54a78c05a51f98277",
+        "retrieved_at_utc": "2026-10-26T02:43:40Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "David Dixon",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://www.geograph.org.uk/profile/43729",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "From geograph.org.uk",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]",
+        "value": {
+          "name": "CC BY-SA 2.0",
+          "url": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 2 May 2026, at 00:23.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Dursley_Market_House_%28geograph_2838109%29.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (640 × 480 pixels, file size: 386 KB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dursley_Market_House_(geograph_2838109).jpg",
+        "response_sha256": "fe1daba8c36c2f96f802980eae4f57e6a8ccaeb38dca52be524e05d9ecca3b63",
+        "retrieved_at_utc": "2026-10-26T02:43:41Z"
+      }
+    ]
+  }
+}

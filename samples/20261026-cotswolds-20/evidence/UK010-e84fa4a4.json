@@ -1,0 +1,129 @@
+{
+  "input_id": "UK010",
+  "status": "CANDIDATE",
+  "reason_code": "FIRST_INFOBOX_PHOTO",
+  "article_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+  "commons_file_page_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+  "retrieved_at_utc": "2026-10-26T02:43:25Z",
+  "fields": {
+    "article": [
+      {
+        "field": "canonical_title",
+        "locator": "//*[@id='firstHeading']",
+        "value": "Castle Combe",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "canonical_page_url",
+        "locator": "//link[@rel='canonical']",
+        "value": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "file_link",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "https://en.wikipedia.org/wiki/File:Castle_combe_river.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "thumbnail_media_url",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a/img",
+        "value": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Castle_combe_river.jpg/250px-Castle_combe_river.jpg",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "caption",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[1]/section[1]/table/tbody/tr[3]/td/span/a",
+        "value": "The main street and Bybrook River",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "page_id",
+        "locator": "mw.config wgArticleId",
+        "value": "1070580",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      },
+      {
+        "field": "revision_id",
+        "locator": "mw.config wgRevisionId",
+        "value": "1363817110",
+        "source_url": "https://en.wikipedia.org/wiki/Castle_Combe",
+        "response_sha256": "1ef882ccee763d2bcfe7dca66fdaf1f33547e35ffc0f8b9035b58d991e192f16",
+        "retrieved_at_utc": "2026-10-26T02:43:24Z"
+      }
+    ],
+    "commons": [
+      {
+        "field": "creator_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[4]/td[2]",
+        "value": "Saffron Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "creator_url",
+        "locator": "creator cell first HTTPS link",
+        "value": "https://commons.wikimedia.org/wiki/User:Saffron_Blaze",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "credit_text",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[2]",
+        "value": "Own work",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "license",
+        "locator": "/html/body/div[3]/div/div[3]/main/div[3]/div[2]/div[3]/div/div[2]/div/div[1]/div[2]/div/div[4]/div[2]",
+        "value": {
+          "name": "CC BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "source_revision_or_timestamp",
+        "locator": "//*[@id='footer-info-lastmod']",
+        "value": "This page was last edited on 27 April 2026, at 00:41.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "original_file_url",
+        "locator": "//*[@id='file']//a[contains(@class,'internal')]",
+        "value": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Castle_combe_river.jpg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      },
+      {
+        "field": "media_properties",
+        "locator": "//*[@id='file']//*[contains(@class,'fileinfo')]",
+        "value": "Original file (3,863 × 2,759 pixels, file size: 5.54 MB, MIME type: image/jpeg )",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Castle_combe_river.jpg",
+        "response_sha256": "dcd879737a07c084373c588bef91ee2a850efc506933618c43675865033c2892",
+        "retrieved_at_utc": "2026-10-26T02:43:25Z"
+      }
+    ]
+  }
+}
